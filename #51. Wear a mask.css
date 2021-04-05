@@ -1,0 +1,74 @@
+<div class="main"></div>
+<div class="left"></div>
+<div class="left invert"></div>
+<div class="line"></div>
+<div class="circle"></div>
+
+<style>
+  body {
+    background: #293462;
+    position: relative;
+    box-sizing: border-box;
+  }
+  div {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .main {
+    width: 150px;
+    height: 100px;
+    background: #FFF1C1;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FE5F55;
+    transform: translate(15px,-10px)
+  }
+  .line {
+    width: 40px;
+    height: 10px;
+    background: #FE5F55;
+    border-radius: 5px;
+    transform: translate(-55px,-30px);
+  }
+  .line:before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 10px;
+    background: #FE5F55;
+    border-radius: 5px;
+    transform: translate(0px,20px);
+  }
+  
+  .left {
+    width: 60px;
+    height: 60px;
+    background:#FFF1C1;
+    transform: translate(-134px,-50px);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+  }
+  .left:after{
+	content: '';
+    position: absolute;
+    background: #293462;
+    width: 50px;
+    height: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px; 
+    transform: translate(9px,10px);
+  }
+  
+  .invert {
+    transform: 	translate(74px,-50px)rotate(180deg);
+  }
+
+</style
+<!-- https://cssbattle.dev/play/51 -->>

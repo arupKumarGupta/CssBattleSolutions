@@ -1,0 +1,40 @@
+<div class="soap">
+</div>
+<style>
+  body {
+    background: #293462;
+    position: relative;
+  }
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   	transform: translate(-50%, -40%);
+    width: 200px;
+    height: 100px;
+    background: #A64942;
+    border-radius: 20px;
+  }
+
+  .soap:before {
+    position: absolute;
+    content: '';
+    background: #FE5F55;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%,-20%);
+  }
+  .soap:after {
+    content:'';
+    position: absolute;
+    background: #A64942;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(30px,10px);
+    
+  }
+</style>
+<!-- https://cssbattle.dev/play/48 -->

@@ -1,0 +1,54 @@
+<div class="tri"></div>
+<div class="base-rec"></div>
+<div class="line"></div>
+
+<style>
+  body {
+    background: #6592CF;
+    position: relative;
+  }
+  div {
+	position: absolute;
+  }
+  .tri {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #243D83;
+	left: 50%;
+    transform: translate(-50%, 42%);
+  }
+  
+  .base-rec {
+    background: #243D83;
+    width: 150px;
+    height:130px;
+    border-radius: 10px;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -23%);
+  }
+  .base-rec:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #EEB850;
+    transform: translate(50px, 80px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .line{
+    background: #EEB850;
+    width: 100px;
+    height:10px;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5px);
+  }
+</style>
+<!-- https://cssbattle.dev/play/49 -->
+

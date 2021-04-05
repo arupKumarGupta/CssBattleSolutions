@@ -1,0 +1,69 @@
+<div class="l line-1"></div>
+<div class="l line-2"></div>
+<div class="l line-3"></div>
+<div class="circle"></div>
+<div class="i circle-1"></div>
+<div class="i circle-2"></div>
+<div class="i circle-3"></div>
+
+<style>
+  body {
+    background: #1A4341;
+    position: relative;
+  }
+  .i {
+    background: #998235;
+  }
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #dd6b4d;
+    clip-path: circle();
+    background: #F3AC3C;
+  }
+  .circle-1 {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(-30px, -30px);
+  }
+  .circle-2 {
+    width: 10px;
+    height: 10px;
+  	border-radius: 50%;
+    transform: translate(20px, -30px );
+  }
+  .circle-3 {
+    width: 20px;
+    height: 20px;
+  	border-radius: 50%;
+    transform: translate(-10px, 15px );
+  }
+  
+  .l {
+    width: 10px;
+    height: 180px;
+    background: #F3AC3C;
+    border-radius: 5px;
+
+  }
+  .line-1 {
+    transform: translate(-5px, -100px);	
+  }
+  .line-2 {
+    transform: translate(4px,-95px)
+      rotate(60deg);
+  }
+  .line-3 {
+     transform: translate(4px,-85px)
+      rotate(-60deg);
+  }
+
+</style>
+<!-- https://cssbattle.dev/play/47  -->

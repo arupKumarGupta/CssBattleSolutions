@@ -1,0 +1,100 @@
+<div class="cap"></div>
+<div class="container"></div>
+<div class="atomizer"></div>
+<div class="drops"></div>
+<div class="drops2"></div>
+<div class="liquid"></div>
+<div class="yin"></div>
+<div class="yang"></div>
+
+<style>
+  body {
+    background: #1A4341;
+    position: relative;
+  }
+  div {
+    position: absolute;
+    background: #F3AC3C;
+    left: 50%;
+    transform: translate(-50%,73%);
+  }
+  .container{  
+    width: 100px;
+    height: 140px;
+    border-radius: 20px;
+  }
+  .cap {
+    width: 50px;
+    height: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    transform: translate(-50%,82px);
+  }
+  .cap:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #F3AC3C;
+	transform: translate(15px,-20px);
+  }
+  .atomizer {
+    width: 150px;
+    height: 20px;
+    background: #F3AC3C;
+    border-radius: 20px;
+    transform: translate(-50px,42px);
+  }
+  .atomizer:after {
+    content: '';
+    position: absolute;
+    background: #F3AC3C;
+    width: 20px;
+    height: 35px;
+    border-radius: 40px;
+    transform: translate(130px,5px);
+  }
+  
+  .drops {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#998235;
+    transform: translate(80px, 92px);
+  }
+  .drops2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#998235;
+    transform: translate(80px, 122px)
+  }
+  
+  .liquid {
+    content: '';
+    width: 100px;
+    height: 80px;
+    background: #998235;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: translate(-50px,162px);
+  }
+  
+  .yin {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #998235;
+    transform: translate(-49.85px,132.1px)
+  }
+  .yang {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #F3AC3C;
+    transform: translate(-.1px,132px)
+  }
+
+
+</style
+<!-- https://cssbattle.dev/play/50 -->>
